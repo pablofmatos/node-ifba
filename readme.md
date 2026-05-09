@@ -1,4 +1,5 @@
 ========================================================================================
+
 -- Primeiro passo: Instalar o node na máquina
 https://nodejs.org/en/download
 
@@ -40,4 +41,11 @@ git config user.name "pablofmatos"
 
 -- No cmd do git no windows, definir e-mail
 git config user.email "pablofmatos@ifba.edu.br"
-==========================================================================================================================
+
+-- Inializar o GIT no projeto no VS Code
+git init
+
+-- No VS Code, definir e-mail e nome do usuário do Git
+git config --global user.email "pablofmatos@ifba.edu.br"
+git config --global user.name "pablofmatos"
+========================================================================================
